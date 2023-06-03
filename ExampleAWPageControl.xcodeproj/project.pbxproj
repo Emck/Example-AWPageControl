@@ -11,6 +11,7 @@
 		88EFE34C2A2AE25300A58CF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EFE34B2A2AE25300A58CF5 /* Assets.xcassets */; };
 		88EFE34F2A2AE25300A58CF5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88EFE34D2A2AE25300A58CF5 /* MainMenu.xib */; };
 		88EFE3512A2AE25300A58CF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EFE3502A2AE25300A58CF5 /* main.m */; };
+		88F8D4712A2B0C82004F129E /* AWPageControl in Frameworks */ = {isa = PBXBuildFile; productRef = 88F8D4702A2B0C82004F129E /* AWPageControl */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F8D4712A2B0C82004F129E /* AWPageControl in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +81,9 @@
 			dependencies = (
 			);
 			name = ExampleAWPageControl;
+			packageProductDependencies = (
+				88F8D4702A2B0C82004F129E /* AWPageControl */,
+			);
 			productName = ExampleAWPageControl;
 			productReference = 88EFE3452A2AE25100A58CF5 /* ExampleAWPageControl.app */;
 			productType = "com.apple.product-type.application";
@@ -106,6 +111,9 @@
 				Base,
 			);
 			mainGroup = 88EFE33C2A2AE25100A58CF5;
+			packageReferences = (
+				88F8D46F2A2B0C82004F129E /* XCRemoteSwiftPackageReference "Package-AWPageControl" */,
+			);
 			productRefGroup = 88EFE3462A2AE25100A58CF5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -332,6 +340,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		88F8D46F2A2B0C82004F129E /* XCRemoteSwiftPackageReference "Package-AWPageControl" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Emck/Package-AWPageControl";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		88F8D4702A2B0C82004F129E /* AWPageControl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88F8D46F2A2B0C82004F129E /* XCRemoteSwiftPackageReference "Package-AWPageControl" */;
+			productName = AWPageControl;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 88EFE33D2A2AE25100A58CF5 /* Project object */;
 }

@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "package-awpagecontrol",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Emck/Package-AWPageControl",
+      "state" : {
+        "branch" : "main",
+        "revision" : "485772a0973f5185ad48d6fed261fcd110c2ad3f"
+      }
+    }
+  ],
+  "version" : 2
+}
