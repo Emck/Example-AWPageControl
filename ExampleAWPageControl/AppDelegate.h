@@ -6,8 +6,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <AWPageControl.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate, AWPageControlDelegate>
 
 
 @end
